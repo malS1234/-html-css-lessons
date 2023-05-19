@@ -1,0 +1,138 @@
+* {
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+:focus,
+:active {
+  outline: none;
+}
+a:focus,
+a:active {
+  outline: none;
+}
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+button {
+  cursor: pointer;
+}
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+ul,
+li {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+body {
+  padding: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.block {
+  border: 5px solid red;
+  max-width: 500px;
+  margin: 0px auto;
+  height: 300px;
+  position: relative;
+  left: 0;
+  top: 0;
+}
+
+.block div {
+  line-height: 50px;
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+}
+.block__1 {
+  background-color: #a6ff01;
+  position: absolute;
+  z-index: 4;
+  width: 50%;
+}
+.block__2 {
+  background-color: #2e437c;
+  position: relative;
+  left: 0px;
+  top: 20px;
+  z-index: 3;
+}
+.block__3 {
+  background-color: rgba(0, 217, 255);
+  position: relative;
+  z-index: 5;
+}
+
+.list {
+  margin: 20px 0 0 0;
+}
+
+.list li {
+  margin: 0 0 12px 0;
+  padding: 0 0 0 10px;
+  position: relative;
+}
+
+.list li::before {
+  content: "";
+  background: url("../lesson-6-CSS/picture4.png") 0px 0px / 100% auto no-repeat;
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  top: 1px;
+  left: 0;
+}
