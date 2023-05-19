@@ -1,0 +1,169 @@
+* {
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+:focus,
+:active {
+  outline: none;
+}
+a:focus,
+a:active {
+  outline: none;
+}
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+button {
+  cursor: pointer;
+}
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+ul,
+li {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+body {
+  padding: 30px;
+}
+
+.block {
+  margin: 0 0 35px 0;
+}
+.block p {
+  font-size: 18px;
+  line-height: 24px;
+  margin: 0 0 20px 0;
+}
+
+.block p:last-child:hover {
+  text-transform: uppercase;
+  background-color: red;
+}
+
+.textinput {
+  border: 1px solid blue;
+  height: 45px;
+  padding: 0px 15px;
+  font-size: 20px;
+  width: 350px;
+  margin: 0 0 10px 0px;
+}
+
+.textinput:focus {
+  box-shadow: 0 0 10px #0f84c7;
+}
+
+.textbutton {
+  display: block;
+  width: 350px;
+  height: 50px;
+  background-color: green;
+  font-size: 18px;
+  color: yellow;
+  text-transform: uppercase;
+  margin: 0 0 25px 0;
+}
+
+.list {
+}
+.list li {
+  font-size: 18px;
+  margin: 0 0 10px 0;
+}
+.link {
+  color: red;
+}
+
+.link:visited {
+  color: black;
+}
+
+.link:hover {
+  text-decoration: underline;
+  color: pink;
+}
+
+.block:hover {
+  background-color: blueviolet;
+}
+
+.link:active {
+  color: #ac27a1;
+}
+
+.list li:first-child {
+  color: aqua;
+}
+
+.list li:last-child {
+  color: darkcyan;
+  font-weight: 800;
+}
+
+.list li:nth-child(3) {
+  text-decoration: line-through;
+}
+
+.textbutton:hover {
+  background-color: #1a0f57;
+  color: #ac27a1;
+}
+
+.textbutton:active {
+  color: #18c3cf;
+}
