@@ -1,0 +1,138 @@
+* {
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+.link {
+  border-bottom: 10px solid #000;
+}
+
+.font-big {
+  font-size: 30px;
+}
+
+.block {
+  padding: 30px;
+  line-height: 90px;
+}
+.block .block_text {
+  font-size: 40px;
+}
+.block .block_text span {
+  color: green;
+}
+
+.link {
+  color: blue;
+  text-decoration: underline;
+  border-bottom: 5px solid green;
+}
+.block .link {
+  font-size: 100px;
+}
+.link:hover {
+  color: green;
+  text-decoration: underline;
+}
+
+.link-2 {
+  font-size: 80px;
+}
+
+.block-2 {
+  margin: 20px 0 0 0;
+  color: blue;
+  font-size: 25px;
+  color: red;
+}
+
+.block-3 {
+  border: 5px solid green;
+  background-color: aqua;
+  height: 100px;
+  width: 50%;
+}

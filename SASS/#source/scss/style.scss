@@ -1,0 +1,68 @@
+// File for zeroing style 
+@import "nullstyle.scss";
+
+%tplborder {
+  border-bottom: 10px solid #000;
+}
+
+$fz: 40px;
+
+@mixin fontz($c, $f) {
+  font-size: $f;
+  color: $c;
+}
+
+.font-big {
+  font-size: 30px;
+}
+
+.block {
+  padding: 30px;
+  line-height: 90px;
+
+  .block_text {
+    font-size: $fz;
+
+    span {
+      color: green;
+    }
+  }
+}
+
+
+
+.link {
+  color: blue;
+  text-decoration: underline;
+
+  .block & {
+    font-size: 100px;
+  }
+
+  &:hover {
+    color: green;
+    text-decoration: underline;
+  }
+
+  border-bottom: 5px solid green;
+  @extend %tplborder;
+
+}
+
+.link-2 {
+  font-size: 80px;
+
+}
+
+.block-2 {
+  margin: 20px 0 0 0;
+  color: blue;
+  @include fontz(red, 25px);
+}
+
+.block-3 {
+  border: 5px solid green;
+  background-color: aqua;
+  height: 100px;
+  width: 100px/200px*100%;
+}
