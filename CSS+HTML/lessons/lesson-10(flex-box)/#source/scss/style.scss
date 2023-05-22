@@ -1,0 +1,95 @@
+// File for zeroing style 
+@import "nullstyle.scss";
+
+body {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.wrapper {
+  height: 100%;
+  overflow: hidden;
+  min-height: 100%;
+  padding: 50px;
+}
+
+.block {}
+
+.block__row {
+  display: flex;
+  border: 20px solid #ece89d;
+  margin: 20px;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  height: 700px;
+}
+
+.block__column {
+  border: 20px solid #5e5373;
+}
+
+.block__item {
+  background-color: #18b5a4;
+  padding: 50px;
+  font-size: 50px;
+  color: #fff;
+  font-weight: 700;
+  text-align: center;
+}
+
+.block__list {
+  display: flex;
+}
+
+.block__info {
+  padding: 0 0 0 30px;
+}
+
+.block__info--y {
+  position: relative;
+
+  &:before {
+    position: absolute;
+    content: '';
+    border: 7px solid #ece89d;
+    left: 14px;
+  }
+
+}
+
+.block__info--p {
+  position: relative;
+
+  &:before {
+    position: absolute;
+    content: '';
+    border: 7px solid #5e5373;
+    left: 14px;
+  }
+}
+
+.block__info--g {
+  position: relative;
+
+  &:before {
+    position: absolute;
+    content: '';
+    border: 7px solid #18b5a4;
+    left: 14px;
+  }
+}
+
+.block__column--1 {
+  // order: 2;
+  // align-self: flex-start;
+}
+
+.block__column--2 {
+  // order: 3;
+  flex: 1 1 auto;
+}
+
+.block__column--3 {
+  // order: 1;
+  // align-self: flex-end;
+}
